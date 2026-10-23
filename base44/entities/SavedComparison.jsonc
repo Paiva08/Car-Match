@@ -1,0 +1,37 @@
+{
+  "name": "SavedComparison",
+  "type": "object",
+  "properties": {
+    "nome": {
+      "type": "string",
+      "description": "Nome da compara\u00e7\u00e3o salva"
+    },
+    "car1_id": {
+      "type": "string",
+      "description": "ID do primeiro carro"
+    },
+    "car2_id": {
+      "type": "string",
+      "description": "ID do segundo carro"
+    },
+    "car1_nome": {
+      "type": "string",
+      "description": "Nome do primeiro carro"
+    },
+    "car2_nome": {
+      "type": "string",
+      "description": "Nome do segundo carro"
+    },
+    "notas": {
+      "type": "string",
+      "description": "Notas ou observa\u00e7\u00f5es sobre a compara\u00e7\u00e3o"
+    }
+  },
+  "required": [
+    "nome",
+    "car1_id",
+    "car2_id",
+    "car1_nome",
+    "car2_nome"
+  ]
+}
